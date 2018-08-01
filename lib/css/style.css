@@ -75,3 +75,26 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 1030px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    footer {
+        flex: 1 0 auto;
+    }
+}
+
+@media(max-width: 530px) {
+    .card {
+        align-items: center;
+        width: 80%;
+    }
+    .card img{
+        align-items: center;
+        width: 80%;
+        height: initial;
+    }
+}
